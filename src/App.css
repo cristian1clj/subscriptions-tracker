@@ -1,38 +1,130 @@
 .App {
-  text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #36cba6;
+    border-radius: 20px;
+    border: 0.1px solid #51a490;
+    box-shadow: rgba(2, 183, 168, 0.525) 0 0 1rem 0.5rem;
+    color: white;
+    margin-top: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input, select {
+    margin: 5px 0 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+    margin: 10px 0;
+    padding: 6px 0;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+    margin: 35px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.form-add-money {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-add-money form {
+    width: 250px;
+}
+
+.form-add-money form input {
+    width: 220px;
+}
+
+.form-add-money form button {
+    width: 250px;
+}
+
+.form-add-money form button:hover {
+    transition: background-color 0.2s ease;
+    background-color: rgb(42, 42, 42);
+}
+
+.messages {
+    height: 90px;
+    padding: 10px 0;
+}
+
+.error {
+    width: 80%;
+    margin: 5px auto;
+    margin-bottom: 0;
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: rgba(255, 205, 210, 0.815);
+    color: #b71c1c;
+}
+
+.main-form {
+    margin: 0 auto;
+    display: table;
+    clear: both;
+    align-items: center;
+    padding: 0 0 10px 0;
+}
+
+.balance-sheet, .form-add-subscription {
+    float: left;
+    width: 220px;
+}
+
+.balance-sheet {
+    height: 246px;
+    background-color: #7fdac3;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px 60px;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    display: grid;
+    place-content: center;
+}
+
+.form-add-subscription {
+    margin-left: 20px;
+}
+
+.form-add-subscription form {
+    display: grid;
+}
+
+.form-add-subscription form select {
+    text-align: center;
+}
+
+.subscription-item {
+    height: 85px;
+    margin: 10px 0;
+    padding: 0 25px;
+    background-color: #7fdac3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-item img {
+    width: 150px;
+}
+
+.subscription-item button {
+    width: 70px;
 }
