@@ -41,6 +41,14 @@ button:hover {
 
 .header {
     margin: 35px 0;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
 }
 
 .form-add-money {
