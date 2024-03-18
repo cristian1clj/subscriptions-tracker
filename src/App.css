@@ -2,32 +2,41 @@
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    background-color: #36cba6;
+    background-color: #374151;
     border-radius: 20px;
-    border: 0.1px solid #51a490;
-    box-shadow: rgba(2, 183, 168, 0.525) 0 0 1rem 0.5rem;
+    border: 0.1px solid #505a6b00;
+    box-shadow: rgba(55,65,81, 0.525) 0 0 1rem 0.3rem;
     color: white;
     margin-top: 10%;
 }
 
 input, select {
+    background-color: #333a45;
     margin: 5px 0 10px 0;
     padding: 8px 15px;
     border-radius: 5px;
-    border: 0;
+    border: 0.1px solid #5b6677;
     outline: none;
     font-size: 1rem;
+    color: white;
 }
 
 button {
     margin: 10px 0;
     padding: 6px 0;
-    background-color: black;
+    background-color: #149eca;
     font-size: 1rem;
     color: white;
     border-radius: 10px;
     border: 0;
     font-weight: bold;
+}
+
+button:hover {
+    transition: background-color 0.2s ease;
+    background-color: #2ab9e9;
+    transition: box-shadow 0.1s ease;
+    box-shadow: rgba(56,186,229, 0.525) 0 0 1rem 0.1rem;
 }
 
 .header {
@@ -50,11 +59,6 @@ button {
 
 .form-add-money form button {
     width: 250px;
-}
-
-.form-add-money form button:hover {
-    transition: background-color 0.2s ease;
-    background-color: rgb(42, 42, 42);
 }
 
 .messages {
@@ -87,10 +91,11 @@ button {
 
 .balance-sheet {
     height: 246px;
-    background-color: #7fdac3;
+    background-color: #38bae5;
     color: black;
     font-weight: bold;
     border-radius: 20px 60px;
+    box-shadow: rgba(56,186,229, 0.525) 0 0 1rem 0.1rem;
     text-align: left;
     margin-right: 20px;
     font-size: 1.1rem;
@@ -114,7 +119,8 @@ button {
     height: 85px;
     margin: 10px 0;
     padding: 0 25px;
-    background-color: #7fdac3;
+    background-color: #38bae5;
+    box-shadow: rgba(56,186,229, 0.525) 0 0 1rem 0.1rem;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -127,4 +133,12 @@ button {
 
 .subscription-item button {
     width: 70px;
+    background-color: #404854;
+}
+
+.subscription-item button:hover {
+    transition: background-color 0.2s ease;
+    background-color: #333a45;
+    transition: box-shadow 0.1s ease;
+    box-shadow: rgba(51,58,69, 0.525) 0 0 1rem 0.1rem;
 }
