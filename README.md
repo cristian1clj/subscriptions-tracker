@@ -1,8 +1,8 @@
-# 💵 Subscription tracker
+# 💵 Subscription Tracker
 
-Subscription tracker is an aplication to manage your budget to use in streaming platforms.
+Subscription Tracker is an application to manage your budget for use on streaming platforms.
 
-![project running](https://drive.google.com/file/d/1CAwpAqyFs7aRezlKiuJakJFMSybNXn19/view?usp=drive_link)
+![project running](https://drive.google.com/uc?export=view&id=1CAwpAqyFs7aRezlKiuJakJFMSybNXn19)
 
 > This project was developed to learn and practice with **React**. 📖
 
