@@ -82,6 +82,18 @@ button:hover {
     border-radius: 10px;
     background-color: rgba(255, 205, 210, 0.815);
     color: #b71c1c;
+    animation: fadeInAndGrow 1s ease forwards;
+}
+
+@keyframes fadeInAndGrow {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .main-form {
